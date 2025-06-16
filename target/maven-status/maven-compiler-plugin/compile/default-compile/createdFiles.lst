@@ -1,2 +1,3 @@
-PriorityStrategy$TaskWithRemainingTime.class
+PriorityStrategy$TaskState.class
 RoundRobinStrategy$TaskWithRemainingTime.class
+PriorityStrategy$SchedulingState.class
