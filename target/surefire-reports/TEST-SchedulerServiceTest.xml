@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SchedulerServiceTest" time="0.294" tests="14" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="SchedulerServiceTest" time="0.349" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\x1 yoga\AppData\Local\Temp\surefire12626591878633159091\surefirebooter-20250616225519532_3.jar C:\Users\x1 yoga\AppData\Local\Temp\surefire12626591878633159091 2025-06-16T22-55-19_144-jvmRun1 surefire-20250616225519532_1tmp surefire_0-20250616225519532_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\x1 yoga\AppData\Local\Temp\surefire2869348374034631940\surefirebooter-20250616232008801_3.jar C:\Users\x1 yoga\AppData\Local\Temp\surefire2869348374034631940 2025-06-16T23-20-08_118-jvmRun1 surefire-20250616232008801_1tmp surefire_0-20250616232008801_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\target\test-classes;C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\target\classes;C:\Users\x1 yoga\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\x1 yoga\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\x1 yoga\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\x1 yoga\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\x1 yoga\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\x1 yoga\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\x1 yoga\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\x1 yoga\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\x1 yoga\AppData\Local\Temp\surefire12626591878633159091\surefirebooter-20250616225519532_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\x1 yoga\AppData\Local\Temp\surefire2869348374034631940\surefirebooter-20250616232008801_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -59,18 +59,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testIdenticalTasksWithDifferentIds" classname="SchedulerServiceTest" time="0.091"/>
-  <testcase name="testEmptyTaskList" classname="SchedulerServiceTest" time="0.005"/>
-  <testcase name="testFirstComeFirstServedMultipleProcessors" classname="SchedulerServiceTest" time="0.006"/>
-  <testcase name="testShortestJobFirstOrdering" classname="SchedulerServiceTest" time="0.008"/>
-  <testcase name="testRoundRobinQuantumLargerThanTask" classname="SchedulerServiceTest" time="0.009"/>
-  <testcase name="testRoundRobinTimeSlicing" classname="SchedulerServiceTest" time="0.003"/>
-  <testcase name="testPriorityTieBreaking" classname="SchedulerServiceTest" time="0.007"/>
-  <testcase name="testFirstComeFirstServedOrdering" classname="SchedulerServiceTest" time="0.002"/>
-  <testcase name="testRoundRobinPreconditionViolation" classname="SchedulerServiceTest" time="0.005"/>
-  <testcase name="testPriorityPreconditionViolation" classname="SchedulerServiceTest" time="0.007"/>
-  <testcase name="testZeroLengthTasks" classname="SchedulerServiceTest" time="0.004"/>
-  <testcase name="testPriorityPreemption" classname="SchedulerServiceTest" time="0.002"/>
-  <testcase name="testSingleTaskAllStrategies" classname="SchedulerServiceTest" time="0.012"/>
-  <testcase name="testShortestJobFirstTieBreaking" classname="SchedulerServiceTest" time="0.002"/>
+  <testcase name="testPriorityWithGap" classname="SchedulerServiceTest" time="0.146"/>
+  <testcase name="testPriorityInterruption" classname="SchedulerServiceTest" time="0.0"/>
+  <testcase name="testPriorityBasic" classname="SchedulerServiceTest" time="0.004"/>
+  <testcase name="testPriorityNoInterruptionAtTaskEnd" classname="SchedulerServiceTest" time="0.0"/>
+  <testcase name="testRoundRobinBasic" classname="SchedulerServiceTest" time="0.013"/>
+  <testcase name="testSimultaneousRoundRobin" classname="SchedulerServiceTest" time="0.0"/>
+  <testcase name="testSimultaneousPriority" classname="SchedulerServiceTest" time="0.001"/>
+  <testcase name="testSJFSSpecificOrder" classname="SchedulerServiceTest" time="0.006"/>
+  <testcase name="testFCFSAscendingArrivalTime" classname="SchedulerServiceTest" time="0.005"/>
+  <testcase name="testQuantumLargerThanTaskLengths" classname="SchedulerServiceTest" time="0.0"/>
 </testsuite>
