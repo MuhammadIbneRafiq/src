@@ -22,4 +22,8 @@
 <error line="20" column="5" severity="error" message="NCSS for this method is 34 (max allowed is 30)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
 <error line="20" column="5" severity="error" message="NPath Complexity is 146 (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
 </file>
+<file name="C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\src\test\java\SchedulerServiceTest.java">
+<error line="39" column="10" severity="error" message="Abbreviation in name &apos;testFCFSWithNullTasks&apos; must contain no more than &apos;4&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="46" column="10" severity="error" message="Abbreviation in name &apos;testFCFSIdealOutput&apos; must contain no more than &apos;4&apos; consecutive capital letters." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
 </checkstyle>
