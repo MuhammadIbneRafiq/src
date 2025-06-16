@@ -5,13 +5,13 @@
 </file>
 <file name="C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\src\main\java\PriorityStrategy.java">
 <error line="21" column="5" severity="error" message="Cyclomatic Complexity is 26 (max allowed is 7)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
-<error line="21" column="5" severity="error" message="NCSS for this method is 48 (max allowed is 30)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
-<error line="21" column="5" severity="error" message="NPath Complexity is 77,784 (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+<error line="21" column="5" severity="error" message="NCSS for this method is 50 (max allowed is 30)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
+<error line="21" column="5" severity="error" message="NPath Complexity is 103,712 (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
 </file>
 <file name="C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\src\main\java\RoundRobinStrategy.java">
 <error line="28" column="5" severity="error" message="Cyclomatic Complexity is 14 (max allowed is 7)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
-<error line="28" column="5" severity="error" message="NCSS for this method is 38 (max allowed is 30)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
-<error line="28" column="5" severity="error" message="NPath Complexity is 660 (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
+<error line="28" column="5" severity="error" message="NCSS for this method is 40 (max allowed is 30)." source="com.puppycrawl.tools.checkstyle.checks.metrics.JavaNCSSCheck"/>
+<error line="28" column="5" severity="error" message="NPath Complexity is 880 (max allowed is 40)." source="com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck"/>
 </file>
 <file name="C:\Users\x1 yoga\Documents\q4\2irr00\TaskScheduler1\TaskScheduler\src\main\java\SchedulerService.java">
 <error line="32" column="5" severity="error" message="Cyclomatic Complexity is 11 (max allowed is 7)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
